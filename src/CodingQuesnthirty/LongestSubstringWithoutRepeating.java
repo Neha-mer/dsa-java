@@ -10,7 +10,10 @@ public class LongestSubstringWithoutRepeating {
 //abcabcbab, longest substring is abc
     public static void main(String[] args) {
 
-        String s = "abcdabcabcabb";
+        // String s = "";
+        //String s="a";
+        String s = "abcdabbcd";
+
         Set<Character> set = new HashSet<>();
         int left = 0, maxLen = 0;
 
@@ -23,7 +26,7 @@ public class LongestSubstringWithoutRepeating {
             maxLen = Math.max(maxLen, right - left + 1);
         }
 
-        
+
         System.out.println(maxLen);
     }
 }
