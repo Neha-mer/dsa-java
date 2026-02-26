@@ -26,17 +26,13 @@ public class FIndMissingNumber {
                 return;
 
             if (right - left > 1) {
-                int difference = right - left;//3
+                //  int difference = right - left;//3
 
-                for (int z = 0; z < difference - 1; z++) {
-                    int missingNum = left + 1;
-                    left++;
-                    Arrays.asList(missingNum).forEach(n -> System.out.print(n + " "));
+                for (int z = left + 1; z < right; z++) {
+
+                    Arrays.asList(z).forEach(n -> System.out.print(n + " "));
 
                 }
-            } else {
-                left++;
-                right++;
             }
         }
 
