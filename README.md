@@ -1,21 +1,6 @@
-## Me
-Create a readme file content for this rep
-
-## AI Assistant
-Let me explore the repository structure to get a complete picture before writing the README.Here is a suggested **README.md** content for this repository:
-``` markdown
-# DSA & Java Concepts in Java
+# DSA & Java Concepts in Java # Inprogress
 
 A hands-on repository for practicing **Data Structures & Algorithms (DSA)**, **core Java concepts**, **multithreading**, and **coding interview problems** — all implemented in Java.
-
----
-
-## 📁 Project Structure
-```
-src/ ├── CodingQuesnthirty/ # Top 30 coding interview problems │ ├── patterns/ │ │ ├── arrays/ # Array-based problems (easy/medium/hard) │ │ ├── twopointer/ # Two Pointer pattern problems │ │ ├── prefixsum/ # Prefix Sum pattern problems │ │ └── slidingwindow/ # Sliding Window pattern problems │ ├── revision/ # Revision problems │ ├── TwoSumProblem.java │ ├── ThreeSumProblem.java │ ├── SumToTarget.java │ ├── AnagramStrings.java │ ├── MergeTwoSortedArray.java │ ├── FindMedianOfSortedArray.java │ ├── FIndLongestPallindromString.java │ ├── LongestSubstringWithoutRepeating.java │ └── ... ├── JavaCoding/ # Core Java concepts │ ├── Inheritance/ │ ├── ImmutableClass.java │ ├── SingeltonClass.java │ ├── ComparatorExample.java │ ├── AnagramCheck.java │ └── ... ├── Java8StremsAPI/ # Java 8 Stream API examples │ └── StreamApiMapAndFlatmap.java ├── JavaMultithreading/ # Multithreading concepts │ └── ReentrantLock/ ├── ConcurrencyAndMultiThreading/ # Concurrency deep dives │ ├── ThreadCreation.java │ ├── RaceCondition.java │ ├── DeadlockExample.java │ ├── ConsumerAndProducerProblem.java │ └── VirtualThreadExmp.java ├── JavaExceptionaHandling/ # Exception Handling examples │ └── Question1.java └── RestExamples/ # REST API examples
-``` 
-
----
 
 ## 🧩 Topics Covered
 
@@ -94,12 +79,3 @@ src/ ├── CodingQuesnthirty/ # Top 30 coding interview problems │ ├─�
 ## 🤝 Contributing
 
 Feel free to fork, add solutions, or improve existing ones via pull requests!
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-```
-Tip: Save this as README.md at the root of the project (alongside dsa-java.iml and .gitignore). You can adjust the repo URL and license as needed.
-
