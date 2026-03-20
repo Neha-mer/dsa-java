@@ -8,8 +8,6 @@ public class FindSum2DArray {
     };
 
     public static void main(String[] args) {
-
-      
         for (int i = 0; i < matrix.length; i++) {
             int sum = 0;
             for (int j = 0; j < matrix[i].length; j++) {

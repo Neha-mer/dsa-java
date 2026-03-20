@@ -29,8 +29,8 @@ public class FIndMissingNumber {
                 //  int difference = right - left;//3
 
                 for (int z = left + 1; z < right; z++) {
-
-                    Arrays.asList(z).forEach(n -> System.out.print(n + " "));
+                    System.out.print(z + " ");
+                    //Arrays.asList(z).forEach(n -> System.out.print(n + " "));
 
                 }
             }
