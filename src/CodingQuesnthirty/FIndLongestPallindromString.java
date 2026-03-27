@@ -18,7 +18,7 @@ public class FIndLongestPallindromString {
             for (int j = i + 1; j <= s.length(); j++) {
 
                 if (s.substring(i, j).equals(new StringBuilder(s.substring(i, j)).reverse().toString())) {
-                    n = s.substring(i, j);
+                    //sub = s.substring(i, j);
                     if (s.substring(i, j).length() > longest.length()) {
                         longest = s.substring(i, j);
                         maxLength = s.substring(i, j).length();
