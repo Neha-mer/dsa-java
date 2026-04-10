@@ -11,11 +11,7 @@ public class FindMax {
         int[] arr = {3, 5, 11, 1, 2, 3, 0, 34, 56, -5, -6, -10};
         int max = arr[0];
         int min = arr[0];
-       /* Arrays.sort(arr);
-        int max = arr[arr.length - 1];
-        int min = arr[0];
 
-        System.out.println(min + " and " + max);*/
 
         for (int i = 1; i < arr.length; i++) {
 

@@ -1,0 +1,54 @@
+Stream API & List Manipulations
+Find the 2nd highest number in a list of integers.
+Flatten nested lists and return only even numbers.
+Find the maximum and minimum values in a list of integers.
+Get the sum and average of all elements in an array.
+Find all numbers starting with 1 using Stream functions.
+Remove duplicate elements from a list using Streams.
+Find duplicate elements in a given integer list.
+Concatenate two Streams into one.
+Sort a list of integers in descending order.
+Find the first element of a list using Streams.
+Cube list elements and filter numbers greater than 50.
+Find the 3rd smallest number in a list.
+Get the top 3 highest numbers from a list.
+Partition numbers into even and odd.
+Find numbers that are multiples of 5 and divisible by 3.
+Calculate the sum of digits of all integers in a list.
+Merge two unsorted arrays into a single sorted array without duplicates.
+Find common elements between two lists using Streams.
+Check if any number in a list is prime.
+Factorial of a number using Stream API.
+String & Character Processing
+Find the first non-repeated character in a string.
+Find the first repeated character in a string.
+Count the frequency of each word in a list of strings.
+Check if two strings are anagrams.
+Reverse each word of a string using Java 8.
+Find duplicate characters from a string.
+Sort strings according to length in ascending order.
+Find the longest string in a list using max().
+Concatenate all strings in a list into a comma-separated string.
+Find the average length of strings in a list.
+Remove all words starting with 'A' and convert the rest to uppercase.
+Group a list of strings by their length.
+Count vowel frequency in a given string.
+Check if all strings in a list start with a capital letter.
+Find the 2nd longest string in a list.
+Employee & Object Handling
+Sort employees by salary, then by name.
+Group employees by department and count them.
+Partition employees into groups based on gender.
+Convert a list of employees into a Map of Id and Name.
+Find the oldest person in a collection.
+Group a list of employees by their age.
+Convert employee names into a comma-separated string.
+Find the average salary of employees in a department.
+Functional & Miscellaneous
+Reverse elements of a Parallel Stream.
+Calculate age of a person given their date of birth using Java 8 Date/Time API.
+Get current date and time using the new API.
+Use Optional to check if a list is empty before iterating.
+Convert a list of objects into a Map handling duplicate keys.
+Partition a list into prime and non-prime numbers.
+Find the common elements of three integer arrays.
