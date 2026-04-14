@@ -30,7 +30,7 @@ public class ConsumerAndProducerProblem {
         notifyAll();
     }
 
-    synchronized void consumer(String value) {
+    synchronized void consumer(Integer value) {
 
         while (queue.size() == 0) {
             try {
@@ -46,7 +46,7 @@ public class ConsumerAndProducerProblem {
 
     public static void main(String[] args) {
         ConsumerAndProducerProblem consumerAndProducerProblem = new ConsumerAndProducerProblem(10);
-        Thread t1 = new Thread(() -> {
+        Thread producerThread = new Thread(() -> {
             try {
                 for (int i = 0; i < 10; i++) {
                     consumerAndProducerProblem.producer(i);
@@ -56,7 +56,19 @@ public class ConsumerAndProducerProblem {
                 e.printStackTrace();
             }
         });
+        // CONSUMER THREAD
+        Thread consumerThread = new Thread(() -> {
+            for (int i = 0; i < 10; i++) {
+                consumerAndProducerProblem.consumer(i);
+                try {
+                    Thread.sleep(800);
+                } catch (Exception ignored) {
+                }
+            }
+        });
 
+        producerThread.start();
+        consumerThread.start();
 
     }
 }
