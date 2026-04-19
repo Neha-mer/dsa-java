@@ -1,4 +1,4 @@
-package CodingQuesnthirty.patterns.prefixsum.easy;
+package CodingQuesnthirty.patterns.slidingwindow;
 
 public class MaxAvgSubarrayLenk {
     //An array of numbers: [1, 12, -5, -6, 50, 3]
