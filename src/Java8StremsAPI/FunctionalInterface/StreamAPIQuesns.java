@@ -151,9 +151,12 @@ public class StreamAPIQuesns {
         empList.stream().max(Comparator.comparing(Employee::getAge)).ifPresent(System.out::println);
 
         //group employees by city
-
-        
         Map<String, List<Employee>> hmap = empList.stream().collect(Collectors.groupingBy(Employee::getCity));
+        //find names of all the departments in the organization
+
+        List<String> list = empList.stream().map(Employee::getName).distinct().toList();
+
+        System.out.println(list);
 
 
     }
