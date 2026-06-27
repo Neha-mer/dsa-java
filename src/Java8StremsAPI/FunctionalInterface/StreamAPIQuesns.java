@@ -152,9 +152,10 @@ public class StreamAPIQuesns {
 
         //group employees by city
 
+        
         Map<String, List<Employee>> hmap = empList.stream().collect(Collectors.groupingBy(Employee::getCity));
 
-    
+
     }
 }
 
